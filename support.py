@@ -57,7 +57,7 @@ register(
     "Show API key balance.",
     "Picsart",
     "API",
-    "2024",
+    "2025",
     "<Image>/Picsart/Support",  # Menu path
     "*",  # Image type, leave empty
     [],

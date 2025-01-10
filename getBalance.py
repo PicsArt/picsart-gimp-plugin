@@ -16,7 +16,7 @@ def get_balance(i, d):
                 headers = {
                     "X-Picsart-API-Key": api_key,
                     "accept": "application/json",
-                    "User-Agent": "Mozilla/5.0",
+                    "User-Agent": "Gimp",
                     "X-Picsart-Plugin": "Gimp"
                 }
 
@@ -47,7 +47,7 @@ register(
     "Show API key balance.",
     "Picsart",
     "API",
-    "2024",
+    "2025",
     "<Image>/Picsart/Get Balance", 
     "*",
     [],

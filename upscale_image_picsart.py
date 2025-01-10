@@ -48,7 +48,7 @@ def upscale_from_current_image(image, drawable, upscale_factor):
     headers = {
         "X-Picsart-API-Key": api_key,
         "accept": "application/json",
-        "User-Agent": "Gimp/5.0",
+        "User-Agent": "Gimp",
         "X-Picsart-Plugin": "Gimp",
     }
 
@@ -134,7 +134,7 @@ register(
     "Upscale of the current image using the Picsart API",
     "Picsart",
     "API",
-    "2024",
+    "2025",
     "<Image>/Picsart/Upscale",  # Location in GIMP menu
     "*",
     [

@@ -24,7 +24,7 @@ def set_api_key(image, drawable, api_key):
     headers = {
         "X-Picsart-API-Key": api_key,
         "accept": "application/json",
-        "User-Agent": "Gimp/5.0",
+        "User-Agent": "Gimp",
         "X-Picsart-Plugin": "Gimp"
     }
 
@@ -56,7 +56,7 @@ register(
     "Prompt for API key input.",
     "Picsart",
     "API",
-    "2024",
+    "2025",
     "<Image>/Picsart/Set API Key",  # Menu path
     "*",  # Image type
     [

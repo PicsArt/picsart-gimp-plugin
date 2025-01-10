@@ -20,7 +20,7 @@ def show_styled_message_dialog_with_link():
     button.set_size_request(100, 40)  
     button.set_property("can-default", True)
     
-    button.connect("clicked", lambda w: webbrowser.open("https://console.picsart.io/?source=[gimp]utm_medium=app&utmcamping=plugins"))
+    button.connect("clicked", lambda w: webbrowser.open("https://console.picsart.io/?source=gimp&utm_medium=app&utem_campaign=plugins"))
     
     dialog.vbox.pack_start(label, True, True, 10)
     dialog.vbox.pack_start(button, True, True, 10)
@@ -39,7 +39,7 @@ register(
     "Show API key balance.",
     "Picsart",
     "API",
-    "2024",
+    "2025",
     "<Image>/Picsart/My Account", 
     "*",  
     [],

@@ -39,7 +39,7 @@ def remove_background_from_current_image(image, drawable):
         headers = {
             "X-Picsart-API-Key": api_key,
             "accept": "application/json",
-            "User-Agent": "Gimp/5.0",
+            "User-Agent": "Gimp",
             "X-Picsart-Plugin": "Gimp",
         }
 
@@ -73,7 +73,7 @@ def remove_background_from_current_image(image, drawable):
 
                 try:
                     request_image = urllib2.Request(image_url)
-                    request_image.add_header('User-Agent', 'Gimp/5.0')
+                    request_image.add_header('User-Agent', 'Gimp')
                     request_image.add_header('Referer', 'https://www.picsart.com/')
 
                     response_1 = urllib2.urlopen(request_image)
@@ -122,7 +122,7 @@ register(
     "Remove the background of the current image using Picsart API",
     "Picsart",
     "API",
-    "2024",
+    "2025",
     "<Image>/Picsart/Remove Background",  
     "*",  
     [],
