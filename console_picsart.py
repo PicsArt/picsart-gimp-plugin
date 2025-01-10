@@ -11,8 +11,7 @@ def show_styled_message_dialog_with_link():
     )
     
     label = gtk.Label()
-    label.set_markup("<span font='12' >To manage your API key, click the button below or visit:</span> \n\n"
-                     "<a href='https://console.picsart.io/'>https://console.picsart.io/</a>")
+    label.set_markup("<span font='12' >To manage your API key, click the button below or visit:</span> \n\n")
     
     label.set_padding(10, 10)
     
@@ -21,7 +20,7 @@ def show_styled_message_dialog_with_link():
     button.set_size_request(100, 40)  
     button.set_property("can-default", True)
     
-    button.connect("clicked", lambda w: webbrowser.open("https://console.picsart.io/"))
+    button.connect("clicked", lambda w: webbrowser.open("https://console.picsart.io/?source=[gimp]utm_medium=app&utmcamping=plugins"))
     
     dialog.vbox.pack_start(label, True, True, 10)
     dialog.vbox.pack_start(button, True, True, 10)

@@ -73,7 +73,7 @@ def remove_background_from_current_image(image, drawable):
 
                 try:
                     request_image = urllib2.Request(image_url)
-                    request_image.add_header('User-Agent', 'Mozilla/5.0')
+                    request_image.add_header('User-Agent', 'Gimp/5.0')
                     request_image.add_header('Referer', 'https://www.picsart.com/')
 
                     response_1 = urllib2.urlopen(request_image)

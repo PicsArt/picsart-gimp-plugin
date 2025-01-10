@@ -21,7 +21,7 @@ def show_styled_message_dialog_with_link():
     label.set_padding(10, 10)
     
     # Create a button that opens the URL
-    button = gtk.Button("Go to Console")
+    button = gtk.Button("Help center")
     
     # Style the button with padding
     button.set_size_request(100, 40)  # Set the button size (width, height)
