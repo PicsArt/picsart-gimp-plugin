@@ -55,8 +55,8 @@ register(
     "python_fu_support_picsart",
     "Support Picsart Io",
     "Show API key balance.",
-    "Erik",
-    "Torosyan",
+    "Picsart",
+    "API",
     "2024",
     "<Image>/Picsart/Support",  # Menu path
     "*",  # Image type, leave empty

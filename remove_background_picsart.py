@@ -39,10 +39,8 @@ def remove_background_from_current_image(image, drawable):
         headers = {
             "X-Picsart-API-Key": api_key,
             "accept": "application/json",
-            "User-Agent": "Mozilla/5.0",
+            "User-Agent": "Gimp/5.0",
             "X-Picsart-Plugin": "Gimp",
-            "Referer": "https://www.picsart.com/",
-            "Origin": "https://www.picsart.com"
         }
 
         temp_image_path = tempfile.mktemp(suffix=file_extension)
@@ -122,8 +120,8 @@ register(
     "python_fu_remove_bg",
     "Remove Background from Current Image",
     "Remove the background of the current image using Picsart API",
-    "Erik",
-    "Torosyan",
+    "Picsart",
+    "API",
     "2024",
     "<Image>/Picsart/Remove Background",  
     "*",  

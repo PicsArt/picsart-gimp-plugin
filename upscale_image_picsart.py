@@ -48,10 +48,8 @@ def upscale_from_current_image(image, drawable, upscale_factor):
     headers = {
         "X-Picsart-API-Key": api_key,
         "accept": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
+        "User-Agent": "Gimp/5.0",
         "X-Picsart-Plugin": "Gimp",
-        "Referer": "https://www.picsart.com/",
-        "Origin": "https://www.picsart.com"
     }
 
     # Save the current image to a temporary file
@@ -134,8 +132,8 @@ register(
     "python_fu_upscale",
     "Improve your image resolution with ease. Please select your upscale factor:",
     "Upscale of the current image using the Picsart API",
-    "Romik",
-    "Romik",
+    "Picsart",
+    "API",
     "2024",
     "<Image>/Picsart/Upscale",  # Location in GIMP menu
     "*",
